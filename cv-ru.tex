@@ -1,0 +1,131 @@
+\documentclass[10pt,a4paper,ragged2e,withhyper]{custom-altacv}
+
+% Specify the CV version according to format: v.YY.MM.DD-L.S
+% where <L> is language (RU, EN, etc.) and <S> is a special mark like 'demo'.
+\input{preamble.tex}
+
+
+\begin{document}
+
+\name{Казуро Денис}
+\tagline{Project Manager}
+
+\personalinfo{%
+  \email{denis.kazuro@yandex.com}
+%  \phone{}
+  \telegram{creppuscule}
+%  \printinfo{\faLinkedin}{Фартыгин Артём}[https://linkedin.com/in/artyom-fartygin-61890024a]
+ \github{Levatei}
+  \location{Россия, Москва}
+}
+
+\makecvheader
+
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+% \AtBeginEnvironment{itemize}{\small}
+
+%% Set the left/right column width ratio to 6:4.
+\columnratio{0.6}
+
+% Start a 2-column paracol. Both the left and right columns will automatically break across pages
+% if things get too long.
+\begin{paracol}{2}
+
+\cvsection{Опыт Работы}
+
+\cvjob{Project Manager }{Web3 Startup / Product Studio }{Январь 2023 — Декабрь 2025 (3 года)}
+\begin{itemize}
+	\item Руководил полным циклом реализации проекта: от формирования идеи и сбора требований до запуска рабочего MVP.
+	\item Внедрил с нуля Scrum + Kanban, повысив предсказуемость delivery \textbf{(85-90\% выполнения спринтов)}, увеличив стабильность релизов. 
+	\item Формировал и управлял двумя кросс-функциональными удалёнными \textbf{командами до 10 человек}.
+    \item Внедрил системный онбординг-пакет, \textbf{сократив time-to-productivity новых сотрудников на 26\%}.
+    \item Вёл бэклог проекта: формирование спринтов, приоритизация,  контроль исполнения с полным контролем ключевых метрик (\textbf{Velocity, Burndown, Cycle Time}). 
+    \item \textbf{Снизил scope creep на 25-30\%} и количество пересогласований на 30\% , выстроив процесс управления требованиями с фиксацией решений после каждого звонка со стейкхолдерами.
+    \item Формировал технические задания для дизайн команды, согласовывал дизайн-проекты и контролировал их реализацию.
+    \item Вывел 2 ключевых продукта на первичную монетизацию за 6 месяцев с момента старта;\textbf{ ROI} одного проекта составил \textbf{1}\textbf{0X к бюджету разработки} \textbf{(40k\$). }
+\end{itemize}
+
+\divider
+
+\cvjob{Project Manager }{Huntica }{Июль 2021 — Ноябрь 2022 (1 год и 5 месяцев) }{}{}
+
+\begin{itemize}
+	\item \textbf{Внедрил} с нуля \textbf{Agile-церемонии} (Daily, Review, Retro), повысив прозрачность процессов для фаундера и PO.
+    \item \textbf{Руководил кросс-функциональной командой}: дизайнеры, front-end и back-end разработчики.
+    \item Собирал, анализировал и документировал \textbf{требования пользователей и стейкхолдеров }для планирования спринтов. 
+    \item Внедрил Toggl для учёта рабочего времени, что позволило оптимизировать систему оплаты труда. 
+    \item \textbf{Оптимизировал Jira}, сократив время на обработку задач \textbf{на 20\%} и уменьшив количество дубликатов на 90\%.
+\end{itemize}
+
+\divider
+
+\cvjob{Project Manager }{МВА Гарант-групп }{Апрель 2019 — Сентябрь 2019 (6 месяцев)  }{}{}
+    \begin{itemize}
+	\item Внедрил CRM-систему, обеспечив запуск в срок и в соответствии с требованиями. 
+    \item Формировал и ставил задачи подрядчикам (web-разработка, обслуживание веб-инфраструктуры), контролировал сроки и качество выполнения.
+	\item \textbf{Снизил потерю входящих заявок на 95\%} в сравнении с отчётным периодом. 
+    \item Обеспечивал прозрачную коммуникацию между стейкхолдерами и техническими исполнителями. 
+\end{itemize}
+
+
+
+
+%%%%% Temporarily commented out
+\iffalse
+\cvsection{Сертификаты и Дипломы}
+
+\cvachievement{\faGraduationCap}{Участие в двух \textbf{международных} олимпиадах по астрономии}{IOAA и IAO}
+\fi
+%%%%%
+
+
+
+%% Switch to the right column. This will now automatically move to the second
+%% page if the content is too long.
+\switchcolumn
+
+\cvsection{Образование}
+
+\cvevent{\faUniversity Среднее образование}{\mbox{Минский колледж предпринимательства}}{Сентябрь, 2016 -- Июль, 2019}{}
+Выпускник по направлению коммерческая деятельность.
+
+
+
+\cvsection{Навыки}
+
+\vspace{2ex}
+
+\begin{itemize}
+	\item \cvtag{Agile}  \cvtag{Scrum}\cvtag{Kanban} 
+	\item \cvtag{Jira} \cvtag{Confluence}  \cvtag{Asana}\cvtag{Figma} 
+    \item \cvtag{Miro} \cvtag{MS Excel} \cvtag{PMBOK}
+	\item \cvtag{Git}  \cvtag{API}\cvtag{Postman} \cvtag{Devtools}
+    \item \cvtag{Управление бэклогом} 
+    \item \cvtag{Управление стейкхолдерами}
+
+\end{itemize}
+
+\divider
+
+\textcolor{emphasis}{Имел опыт работы}
+\vspace{2ex}
+
+\begin{itemize}
+	\item \cvtag{Python} \cvtag{HTML/CSS}
+	\item  \cvtag{PostgreSQL}\cvtag{SQL Lite}
+	\item  \cvtag{Claude Code} \cvtag{Cursor} \cvtag{OpenClaw}
+
+
+\end{itemize}
+
+
+
+\cvsection{Языки}
+
+\begin{itemize}
+	\item Английский --- \cvtag{Intermediate}
+\end{itemize}
+
+\end{paracol}
+
+\end{document}
